@@ -1,0 +1,12 @@
+{
+    "java.compile.nullAnalysis.mode": "disabled",
+    "cSpell.words": [
+        "computerey",
+        "msvc",
+        "mysql"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "cSpell.ignoreWords": [
+        "Bianchi"
+    ]
+}
