@@ -5,10 +5,12 @@
             "name": "Spring Boot-MsvsProductsApplication<msvs-products> 8001",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "com.computerey.springcloud.msvc.products.msvs_products.MsvsProductsApplication",
-            "projectName": "msvs-products",
+             "mainClass": "com.computerey.springcloud.msvc.products.MsvcProductsApplication",
+            "projectName": "msvc-products",
             "args": "",
-            "envFile": "${workspaceFolder}/.env"
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": "-Dserver.port=8001"
+
         },
        
         {
@@ -20,7 +22,7 @@
             "projectName": "msvc-products",
             "args": "",
             "envFile": "${workspaceFolder}/.env",
-             "vmArgs": "-Dserver.port=9001"
+            "vmArgs": "-Dserver.port=9001"
         }
     ]
 }
